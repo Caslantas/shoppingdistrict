@@ -1,0 +1,124 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navDiv {
+  position: relative;
+}
+.items-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.items-div {
+  background-color: white;
+  color: black;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+.cart {
+  text-align: center;
+}
+.cartClearBtn {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: blue;
+  color: white;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+img {
+  width: 350px;
+  height: 350px;
+  margin-left: 50px;
+  border: 4px solid grey;
+}
+.containerItem {
+  margin: 30px;
+}
+span {
+  margin: 5px;
+}
+button {
+  margin-bottom: 5px;
+}
+.btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  background-color: red;
+  color: white;
+}
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #fff;
+  width: 80vw;
+  max-width: 400px;
+  border-radius: 0.25rem;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.modal h4 {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.modal .clear-btn,
+.modal .confirm-btn {
+  margin-top: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+.confirm-btn {
+  border-color: #645cff;
+  color: #645cff;
+}
+
+.clear-btn,
+.confirm-btn {
+  background: transparent;
+  padding: 0.5rem 1rem;
+  color: hsl(360, 67%, 44%);
+  border: 1px solid hsl(360, 67%, 44%);
+  margin-top: 2.25rem;
+  border-radius: 0.25rem;
+}
+
+.clear-btn:hover {
+  background: hsl(360, 71%, 66%);
+  color: hsl(360, 67%, 44%);
+  border-color: hsl(360, 71%, 66%);
+}
+
+.confirm-btn:hover {
+  background: #948fff;
+  color: #352bf3;
+  border-color: #4339ff;
+}
